@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 26, 26);
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    margin-right: 20px;
+    align-items:baseline;
+}
+.logo{
+    display:flex;
+    cursor: pointer;
+    position: sticky;
+    padding-right: 10px;
+}
+.logo img{
+    width: 30px;
+}
+
+.cabecera{
+    background-color: aquamarine;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    position: sticky;
+    font-size: 60px;
+
+}
+.navLink{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+nav a:hover{
+    color: cornflowerblue;
+}
+@media (max-width: 690px){
+    header{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+.Titulo2{
+    background-color: aquamarine;
+    color: black;
+    border: 0.25rem;
+    border-radius: 5px;
+    border-color: aquamarine;
+    font-size: 40px;
+}
+#nombre{
+ background-color: aquamarine;
+ border-radius: 20px;
+ color: blueviolet;
+ font-family: monospace;
+ font-size: 28px;
+ 
+}
+.imagen{
+    display: flexbox;
+    margin-right: 0px;
+    align-content: center;
+    width: 850px;
+}
